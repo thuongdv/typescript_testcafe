@@ -1,0 +1,8 @@
+{
+    "screenshots": {
+        "takeOnFails": true,
+        "path": "artifacts/screenshots",
+        "fullPage": true,
+        "pathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+    }
+}
