@@ -15,4 +15,4 @@ Please refer to **package.json** for more details.
 2. Open CMD/terminal
 3. Type `npm run c` to compile typescript files into javascript
 3. Type `npm run test` to run test
-4. To view result, type `npm run alv` to view result
+4. Type `npm run alv` to view result
