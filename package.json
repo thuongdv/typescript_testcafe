@@ -11,8 +11,9 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "allure-commandline": "2.13.0",
+        "moment": "2.24.0",
         "testcafe": "1.8.2",
-        "testcafe-reporter-allure": "1.0.5",
-        "allure-commandline": "2.13.0"
+        "testcafe-reporter-allure": "1.0.5"
     }
 }
