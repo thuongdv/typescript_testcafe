@@ -16,3 +16,5 @@ Please refer to **package.json** for more details.
 3. Type `npm run c` to compile typescript files into javascript
 3. Type `npm run test` to run test
 4. Type `npm run alv` to view result
+
+# Github integration
