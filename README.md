@@ -19,3 +19,4 @@ Please refer to **package.json** for more details.
 
 # Github integration
 This is a test
+All
