@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "c": "./node_modules/.bin/tsc",
-        "test": "./node_modules/.bin/testcafe chrome:headless ./built/tests/*.js",
+        "test": "./node_modules/.bin/testcafe chrome ./built/tests/*.js",
         "alv": "./node_modules/.bin/allure serve ./allure/allure-results"
     },
     "author": "",
@@ -17,6 +17,7 @@
         "testcafe-reporter-allure": "1.0.5",
         "testcafe-reporter-junit": "3.0.0",
         "testcafe-reporter-xunit": "2.1.0",
-        "eslint": "6.8.0"
+        "eslint": "6.8.0",
+        "ts-stopwatch": "0.0.4"
     }
 }
