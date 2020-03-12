@@ -16,6 +16,7 @@
         "testcafe": "1.8.2",
         "testcafe-reporter-allure": "1.0.5",
         "testcafe-reporter-junit": "3.0.0",
-        "testcafe-reporter-xunit": "2.1.0"
+        "testcafe-reporter-xunit": "2.1.0",
+        "eslint": "6.8.0"
     }
 }

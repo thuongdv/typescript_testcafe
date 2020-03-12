@@ -1,8 +1,8 @@
-import homePage from "../pages/homePage";
+import homePage from "../pages/home_page";
 import registerPage from "../pages/registerPage";
 
-fixture `Getting Started`
-    .page `https://parabank.parasoft.com/parabank/index.htm`;
+fixture(`Getting Started`)
+    .page(`https://parabank.parasoft.com/parabank/index.htm`);
 
 test('TC1: User can register successfully', async () => {
     //await testcafe.report("1. Go to register page");

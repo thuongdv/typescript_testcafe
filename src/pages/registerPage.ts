@@ -1,7 +1,7 @@
 import {Selector, t} from "testcafe";
-import {CommonPage, KeyValue} from "./commonPage";
-import { DateTimeUtil } from "../utils/DateTimeUtil";
-import { NumberUtil } from "../utils/NumberUtil";
+import {CommonPage, KeyValue} from "./common_page";
+import { DateTimeUtil } from "../utils/date_time_util";
+import { NumberUtil } from "../utils/number_util";
 
 class RegisterPage extends CommonPage {
     private readonly txtFirstName = Selector("input[id='customer.firstName']");
@@ -36,7 +36,7 @@ class RegisterPage extends CommonPage {
 
     public async verifyCannotResister() {
         await t.expect(this.lblErrors.count).gt(0, "The error messages do not show.");
-        //TODO: add more verify points
+        //TODO: add more verify points stat
     }
 
     public async verifyResisterSuccessfully(accInfo: KeyValue) {
