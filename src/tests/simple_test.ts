@@ -1,17 +1,17 @@
 import homePage from "../pages/home_page";
-import registerPage from "../pages/registerPage";
+import registerPage from "../pages/register_page";
 
 fixture(`Getting Started`)
     .page(`https://parabank.parasoft.com/parabank/index.htm`);
 
 test('TC1: User can register successfully', async () => {
-    //await testcafe.report("1. Go to register page");
+    //testcafe.report("1. Go to register page");
     await homePage.goToRegisterPage();
 
-    //await testcafe.report("2. Register new account");
+    //testcafe.report("2. Register new account");
     const accInfo = await registerPage.register();
 
-    //await testcafe.report("VP: Register successfully");
+    //testcafe.report("VP: Register successfully");
     await registerPage.verifyResisterSuccessfully(accInfo);
 });
 
