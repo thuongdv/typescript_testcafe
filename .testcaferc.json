@@ -4,9 +4,5 @@
         "path": "artifacts/screenshots",
         "fullPage": true,
         "pathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
-    },
-    "reporter": {
-        "name": "junit",
-        "output": "reports/junit/report.xml"
     }
 }

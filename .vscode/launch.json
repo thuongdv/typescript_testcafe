@@ -14,7 +14,8 @@
                 "chrome",
                 "${relativeFile}",
                 "--reporter",
-                "spec"
+                "spec",
+                "--skip-js-errors"
             ],
             "console": "integratedTerminal",
             "cwd": "${workspaceRoot}"
