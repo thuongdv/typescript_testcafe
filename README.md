@@ -23,3 +23,5 @@ Basically, we can use the following command:
 `./node_modules/.bin/testcafe 'chrome:headless:emulation:width=1440;height=900;' ./built/tests/*_test.js -r html:reports/result.html -u -e`
 
 # Github integration
+This is a test
+All
